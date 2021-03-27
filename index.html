@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">  
+    <title>SuperApp</title>
+</head>
+
+<body>
+    <header>
+        <div class="container ">
+            <a href="#" class="headerIcon" id="headerIcon"></a>
+            <a class="logo" href="index.html"><img src="img/Logo/Logo.png" alt="logo"></a>
+            <nav>
+                <ul class="menu" id="menu">
+                    <a href="about.html"><li>à propos</li></a>
+                    <a href="services.html"><li>services</li></a>
+                    <a href="team.html"><li>l'équipe</li></a>
+                    <a href="contact.html"><li>contact</li></a>
+                </ul>
+            </nav>
+        </div>        
+    </header>
+
+    <main>
+        <section class="presentation">
+            <div class="about">
+                <h1>Super App</h1>
+                <p>L'application trop super !</p>
+                <div class="btns">
+                    <button class="btn1"><img class="logobtn" src="img/thumbs-up.svg"> Like it</button>
+                    <button class="btn1"><img class="logobtn" src="img/heart-shape-silhouette.svg"> Love it</button>
+                    <button class="btn1"><img class="logobtn" src="img/shopping-cart-black-shape.svg"> Buy it</button>
+                </div>                
+            </div>            
+        </section>
+
+        <article class="fonct">
+            <div class="container">
+                <h2>Elle fait des trucs supers !</h2>
+                <div class="usesGrid">
+                    <section class="uses">
+                        <img class="whitelogo" src="img/forkKnife.svg" alt="fourchette et couteau">
+                        <h3>mettre la table</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur elit. Reprehendit provident nam officiis ex harum, dolor sit dicta mius fugit, debitis.</p>
+                    </section>
+                    <section class="uses">
+                        <img class="whitelogo" src="img/bed.svg" alt="personne dans un lit">
+                        <h3>faire le lit</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur elit. Reprehendit provident nam officiis ex harum, dolor sit dicta mius fugit, debitis.</p>
+                    </section>
+                    <section class="uses">
+                        <img class="whitelogo" src="img/fire.svg" alt="feu">
+                        <h3>allumer le feu</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur elit. Reprehendit provident nam officiis ex harum, dolor sit dicta mius fugit, debitis.</p>
+                    </section>
+                    <section class="uses">
+                        <img class="whitelogo" src="img/leaf.svg" alt="feuille">
+                        <h3>ramasser les feuilles</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur elit. Reprehendit provident nam officiis ex harum, dolor sit dicta mius fugit, debitis.</p>
+                    </section>
+                    <section class="uses">
+                        <img class="whitelogo" src="img/umbrella.svg" alt="parapluie">
+                        <h3>protéger de la pluie</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur elit. Reprehendit provident nam officiis ex harum, dolor sit dicta mius fugit, debitis.</p>
+                    </section>
+                    <section class="uses">
+                        <img class="whitelogo" src="img/dollar.svg" alt="dollar">
+                        <h3>vider votre compte</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur elit. Reprehendit provident nam officiis ex harum, dolor sit dicta mius fugit, debitis.</p>
+                    </section>
+                </div>                                
+            </div>
+        </article>
+
+        <article class="team">
+            <h2>La super équipe à l'origine de SuperApp</h2>
+            <div class="container teamList">
+                <section class="teamDetail">
+                    <img class="teamPhoto" src="img/avaone.jpg/avaone.jpg.png" alt="photo de Tex Talign">
+                    <h3>Tex Talign</h3>
+                    <button class="text-btn"> <img class="logobtn" src="img/envelope.svg"> Lui écrire</button>
+                </section>
+                <section class="teamDetail">
+                    <img class="teamPhoto" src="img/avatwo.jpg/avatwo.jpg.png" alt="photo de Marge Inn">
+                    <h3>Marge Inn</h3>
+                    <button class="text-btn"> <img class="logobtn" src="img/envelope.svg"> Lui écrire</button>
+                </section>
+                <section class="teamDetail">
+                    <img class="teamPhoto" src="img/avathree.jpg/avathree.jpg.png" alt="photo de Isaac Newton">
+                    <h3>Isaac Newton</h3>
+                    <button class="text-btn"> <img class="logobtn" src="img/envelope.svg"> Lui écrire</button>
+                </section>
+                <section class="teamDetail">
+                    <img class="teamPhoto" src="img/avafour.jpg/avafour.jpg.png" alt="photo de Ash Tehemel">
+                    <h3>Ash Tehemel</h3>
+                    <button class="text-btn"> <img class="logobtn" src="img/envelope.svg"> Lui écrire</button>
+                </section>
+            </div>
+        </article>
+
+        <article class="contact">
+            <h2>envoyez-nous un message</h2>
+            <form class="contactForm" action="">
+                <div class="nameForm"><label for="name">Votre nom</label> <br> <input type="text" id="name" required></div>
+                <div class="emailForm"><label for="email">Votre e-mail</label> <br> <input type="email" id="email" required></div>
+                <div class="messageForm"><label for="message">Votre message</label> <br> <textarea name="message" id="message" required></textarea></div>                
+                <button class="btn1 btnForm"><img class="logobtn" src="img/paper-plane.svg"> Envoyer</button>
+            </form>
+        </article>
+    </main>  
+    <script type="text/javascript" src="app.js"></script>  
+</body>
+</html>
